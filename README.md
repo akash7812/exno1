@@ -20,6 +20,7 @@ STEP 5: Remove outliers using IQR
 
 STEP 6: Use zscore of to remove outliers
 
+
 # Coding
 ```
 import pandas as pd
@@ -64,7 +65,6 @@ df.isnull().sum()
 # AFTER CLEANING
 ![output](./infos.png)
 ![output](./null.png)
-
 
 # Result
          
